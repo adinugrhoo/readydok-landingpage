@@ -321,16 +321,7 @@ section
 {
 	color: #1befc5;
 }
-.log_reg_content > div:not(:last-child)::after
-{
-	display: inline-block;
-	content: '/';
-	font-size: 16px;
-	font-weight: 600;
-	color: #FFFFFF;
-	margin-left: 4px;
-	margin-right: 4px;
-}
+
 .hamburger
 {
 	display: none;
@@ -352,6 +343,22 @@ section
 	font-size: 20px;
 	color: #FFFFFF;
 	padding: 5px;
+}
+
+.btn-secondary
+{
+	background-color: #FFFFFF;
+	border: none;
+	color:#3dc1c3 !important;
+	border-radius: 8px;
+}
+
+.btn-secondary:hover
+{
+	background: #147c7e;
+	border: none;
+	color: #FFFFFF !important;
+	border-radius: 8px;
 }
 
 /*********************************
@@ -606,29 +613,7 @@ section
 	cursor: pointer;
 	margin-top: 3px;
 }
-.map_row
-{
-	margin-top: 96px;
-}
-.contact_map
-{
-	width: 100%;
-}
-.map
-{
-	width: 100%;
-}
-.google_map
-{
-	width: 100%;
-	height: 397px;
-}
-.map_container
-{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
+
 #map
 {
 	width: 100%;
@@ -637,8 +622,9 @@ section
 
 .list_pointer li
 {
-	list-style-type: circle;
+	list-style-type: disc;
 	margin-left: 45px;
+	color: #6d6d6d;
 }
 
 /*********************************
