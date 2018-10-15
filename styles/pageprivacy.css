@@ -282,7 +282,7 @@ section
 }
 .logo img
 {
-	height: 30px;
+	height: 35px;
 }
 
 .main_nav ul li:not(:last-child)
@@ -351,6 +351,11 @@ section
 	border: none;
 	color:#3dc1c3 !important;
 	border-radius: 8px;
+	height: 46px;
+	width: 136px;
+	text-align: center;	
+	vertical-align: middle;
+	line-height: 32px;
 }
 
 .btn-secondary:hover
@@ -641,7 +646,7 @@ section
 
 .footer_logo img
 {
-	height: 40px;
+	height: 50px;
 }
 
 .footer_logo span
@@ -762,4 +767,9 @@ section
 .footer_list li a:hover
 {
 	color: #1befc5;
+}
+
+.copyright p
+{
+	color: #FFFFFF;
 }
