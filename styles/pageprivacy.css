@@ -360,10 +360,15 @@ section
 
 .btn-secondary:hover
 {
-	background: #147c7e;
+	background: #0da1a3;
 	border: none;
 	color: #FFFFFF !important;
 	border-radius: 8px;
+}
+
+.btn-link
+{
+	margin-right: 10px;
 }
 
 /*********************************
@@ -748,7 +753,7 @@ section
 {
 	font-size: 20px;
 	font-weight: 700;
-	color: #1befc5;
+	color: #FFFFFF;
 }
 .footer_list
 {
@@ -772,4 +777,6 @@ section
 .copyright p
 {
 	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
 }
