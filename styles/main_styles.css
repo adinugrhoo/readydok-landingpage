@@ -757,6 +757,10 @@ section
 	font-size: 20px;
 	color: #818181;
 }
+.manage_image img
+{
+	width: 110%;
+}
 .service_button
 {
 	position: absolute;
@@ -791,6 +795,42 @@ section
 	color: #1befc5;;
 }
 
+.manage_button
+{
+	position: absolute;
+	right: 10%;
+	margin-top: 5px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(35%);
+	width: 157px;
+	height: 63px;
+	text-align: right;
+	font-size: 18px;
+	border-radius: 12px;
+	color: #3dc1c3 !important;
+}
+
+.manage_button:hover
+{
+	color: #1befc5;
+}
+
+.manage_button a
+{
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+	color: #3dc1c3;
+	line-height: 63px;
+}
+
+.manage_button:hover a 
+{
+	color: #1befc5;;
+}
 /*********************************
 8. Pricing
 *********************************/
@@ -913,6 +953,37 @@ section
 9. Why Choose Us
 *********************************/
 
+.testimoni
+{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+}
+.testimoni_content
+{
+	margin-top: 200px;
+	padding-top: 66%;
+}
+.testimoni_title
+{
+	font-size: 38px;
+	font-weight: 700;
+	color: #484848;
+	line-height: 1.2;
+	text-align: left;
+}
+.testimoni_text
+{
+	margin-top: 27px;
+	text-align: left;
+	font-size: 20px;
+	color: #818181;
+}
+
+/*********************************
+9. Why Choose Us
+*********************************/
+
 .choice
 {
 	width: 100%;
@@ -921,6 +992,7 @@ section
 .choice_image
 {
 	position: absolute;
+	margin-bottom: -20%;
 	bottom: 0;
 	left: 25px;
 }
@@ -965,7 +1037,8 @@ section
 .cta
 {
 	width: 100%;
-	background: #715691;
+	height: 120px;
+	background: #3dc1c3;
 }
 .cta_content
 {
@@ -1042,9 +1115,10 @@ section
 .footer
 {
 	width: 100%;
-	background: #26064c;
+	background: #3dc1c3;
 	padding-top: 95px;
 	padding-bottom: 95px;
+	z-index: 2;
 }
 .footer_logo
 {
@@ -1171,4 +1245,11 @@ section
 .footer_list li a:hover
 {
 	color: #1befc5;
+}
+
+.copyright p
+{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
 }
