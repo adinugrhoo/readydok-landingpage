@@ -281,8 +281,9 @@ section
 }
 .header.scrolled
 {
-	background: #200e35;
+	background: #FFFFFF;
 	padding-top: 6px;
+	box-shadow: 0 5px 50px rgba(40,40,40,.15);
 }
 .header_content
 {
@@ -328,12 +329,12 @@ section
 {
 	font-size: 16px;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: #3dc1c3;
 }
 .main_nav ul li.active a,
 .main_nav ul li a:hover
 {
-	color: #1befc5;
+	color: #0da1a3;
 }
 .log_reg
 {
@@ -356,16 +357,7 @@ section
 {
 	color: #1befc5;
 }
-.log_reg_content > div:not(:last-child)::after
-{
-	display: inline-block;
-	content: '/';
-	font-size: 16px;
-	font-weight: 600;
-	color: #FFFFFF;
-	margin-left: 4px;
-	margin-right: 4px;
-}
+
 .hamburger
 {
 	display: none;
@@ -387,6 +379,31 @@ section
 	font-size: 20px;
 	color: #FFFFFF;
 	padding: 5px;
+}
+.btn-secondary
+{
+	background-color: #3dc1c3;
+	border: none;
+	color:#FFFFFF !important;
+	border-radius: 8px;
+	height: 46px;
+	width: 136px;
+	text-align: center;	
+	vertical-align: middle;
+	line-height: 32px;
+}
+
+.btn-secondary:hover
+{
+	background: #0da1a3;
+	border: none;
+	color: #FFFFFF !important;
+	border-radius: 8px;
+}
+.btn-link
+{
+	margin-right: 10px;
+	color: #3dc1c3 !important;
 }
 
 /*********************************
