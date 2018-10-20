@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="575" height="500" viewBox="0 0 575 500">
+    <defs>
+        <rect id="b" width="430" height="377" rx="4"/>
+        <filter id="a" width="110.7%" height="112.2%" x="-5.3%" y="-5%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0652740036 0"/>
+        </filter>
+        <path id="d" d="M0 87h430v85H0z"/>
+        <filter id="c" width="108.4%" height="142.4%" x="-4.2%" y="-16.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+            <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0652740036 0"/>
+        </filter>
+        <rect id="f" width="430" height="214" rx="4"/>
+        <filter id="e" width="116.3%" height="132.7%" x="-8.1%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="15" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0652740036 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(14 10)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FDFDFD" xlink:href="#b"/>
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <path fill="#3DC1C3" stroke="#979797" stroke-opacity=".037" d="M-.5 86.5h431v86H-.5z"/>
+            <text fill="#818181" font-family="Montserrat-Regular, Montserrat" font-size="20">
+                <tspan x="30" y="50">Dashboard</tspan>
+            </text>
+            <g fill-rule="nonzero">
+                <path fill="#C4C4C4" d="M46.846 143.584l-7.217 3.924c-.424.23-.804.514-1.158.822A24.123 24.123 0 0 0 54.045 154a24.14 24.14 0 0 0 15.484-5.59 6.404 6.404 0 0 0-1.272-.85l-7.728-3.851a2.937 2.937 0 0 1-1.63-2.628v-3.022c.218-.247.466-.563.731-.937a17.703 17.703 0 0 0 2.403-4.826c.991-.305 1.721-1.217 1.721-2.302v-3.226c0-.71-.316-1.344-.808-1.788v-4.664s.96-7.257-8.9-7.257-8.9 7.257-8.9 7.257v4.664a2.402 2.402 0 0 0-.808 1.788v3.226c0 .85.448 1.598 1.119 2.03.809 3.51 2.926 6.035 2.926 6.035v2.948a2.94 2.94 0 0 1-1.537 2.577z"/>
+                <path fill="#FFF" d="M54.411 106.004c-13.253-.226-24.181 10.314-24.407 23.541-.129 7.5 3.22 14.241 8.553 18.724a6.377 6.377 0 0 1 1.138-.808l7.162-3.899a2.919 2.919 0 0 0 1.524-2.563v-2.929s-2.102-2.509-2.904-5.995a2.403 2.403 0 0 1-1.11-2.017v-3.206c0-.705.314-1.335.802-1.776v-4.634s-.953-7.21 8.831-7.21c9.784 0 8.83 7.21 8.83 7.21v4.634c.49.441.803 1.071.803 1.776v3.206c0 1.077-.725 1.984-1.708 2.287a17.598 17.598 0 0 1-2.384 4.794c-.264.372-.51.686-.725.931v3.003c0 1.106.625 2.117 1.616 2.611l7.669 3.826c.46.23.876.52 1.259.843 5.171-4.305 8.512-10.74 8.636-17.989.229-13.227-10.33-24.134-23.585-24.36z"/>
+            </g>
+            <g fill-rule="nonzero" opacity=".146">
+                <path fill="#E7ECED" d="M46.846 233.584l-7.217 3.924c-.424.23-.804.514-1.158.822A24.123 24.123 0 0 0 54.045 244a24.14 24.14 0 0 0 15.484-5.59 6.404 6.404 0 0 0-1.272-.85l-7.728-3.851a2.937 2.937 0 0 1-1.63-2.628v-3.022c.218-.247.466-.563.731-.937a17.703 17.703 0 0 0 2.403-4.826c.991-.305 1.721-1.217 1.721-2.302v-3.226c0-.71-.316-1.344-.808-1.788v-4.664s.96-7.257-8.9-7.257-8.9 7.257-8.9 7.257v4.664a2.402 2.402 0 0 0-.808 1.788v3.226c0 .85.448 1.598 1.119 2.03.809 3.51 2.926 6.035 2.926 6.035v2.948a2.94 2.94 0 0 1-1.537 2.577z"/>
+                <path fill="#818181" d="M54.411 196.004c-13.253-.226-24.181 10.314-24.407 23.541-.129 7.5 3.22 14.241 8.553 18.724a6.377 6.377 0 0 1 1.138-.808l7.162-3.899a2.919 2.919 0 0 0 1.524-2.563v-2.929s-2.102-2.509-2.904-5.995a2.403 2.403 0 0 1-1.11-2.017v-3.206c0-.705.314-1.335.802-1.776v-4.634s-.953-7.21 8.831-7.21c9.784 0 8.83 7.21 8.83 7.21v4.634c.49.441.803 1.071.803 1.776v3.206c0 1.077-.725 1.984-1.708 2.287a17.598 17.598 0 0 1-2.384 4.794c-.264.372-.51.686-.725.931v3.003c0 1.106.625 2.117 1.616 2.611l7.669 3.826c.46.23.876.52 1.259.843 5.171-4.305 8.512-10.74 8.636-17.989.229-13.227-10.33-24.134-23.585-24.36z"/>
+            </g>
+            <g fill-rule="nonzero" opacity=".146">
+                <path fill="#E7ECED" d="M46.846 323.584l-7.217 3.924c-.424.23-.804.514-1.158.822A24.123 24.123 0 0 0 54.045 334a24.14 24.14 0 0 0 15.484-5.59 6.404 6.404 0 0 0-1.272-.85l-7.728-3.851a2.937 2.937 0 0 1-1.63-2.628v-3.022c.218-.247.466-.563.731-.937a17.703 17.703 0 0 0 2.403-4.826c.991-.305 1.721-1.217 1.721-2.302v-3.226c0-.71-.316-1.344-.808-1.788v-4.664s.96-7.257-8.9-7.257-8.9 7.257-8.9 7.257v4.664a2.402 2.402 0 0 0-.808 1.788v3.226c0 .85.448 1.598 1.119 2.03.809 3.51 2.926 6.035 2.926 6.035v2.948a2.94 2.94 0 0 1-1.537 2.577z"/>
+                <path fill="#818181" d="M54.411 286.004c-13.253-.226-24.181 10.314-24.407 23.541-.129 7.5 3.22 14.241 8.553 18.724a6.377 6.377 0 0 1 1.138-.808l7.162-3.899a2.919 2.919 0 0 0 1.524-2.563v-2.929s-2.102-2.509-2.904-5.995a2.403 2.403 0 0 1-1.11-2.017v-3.206c0-.705.314-1.335.802-1.776v-4.634s-.953-7.21 8.831-7.21c9.784 0 8.83 7.21 8.83 7.21v4.634c.49.441.803 1.071.803 1.776v3.206c0 1.077-.725 1.984-1.708 2.287a17.598 17.598 0 0 1-2.384 4.794c-.264.372-.51.686-.725.931v3.003c0 1.106.625 2.117 1.616 2.611l7.669 3.826c.46.23.876.52 1.259.843 5.171-4.305 8.512-10.74 8.636-17.989.229-13.227-10.33-24.134-23.585-24.36z"/>
+            </g>
+            <rect width="162" height="6" x="96" y="116" fill="#FFF" rx="1"/>
+            <rect width="119" height="6" x="96" y="132" fill="#FFF" rx="1"/>
+            <g fill="#E7E7E7" opacity=".45" transform="translate(96 209)">
+                <rect width="162" height="6" rx="1"/>
+                <rect width="119" height="6" y="16" rx="1"/>
+            </g>
+            <g fill="#E7E7E7" opacity=".45" transform="translate(96 299)">
+                <rect width="162" height="6" rx="1"/>
+                <rect width="119" height="6" y="16" rx="1"/>
+            </g>
+        </g>
+        <g transform="translate(127 253)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#FFF" stroke="#979797" stroke-opacity=".048" xlink:href="#f"/>
+        </g>
+        <text fill="#818181" font-family="Montserrat-Medium, Montserrat" font-size="16" font-weight="400" transform="translate(157 273)">
+            <tspan x="0" y="15">Attraction Rate</tspan>
+        </text>
+        <path stroke="#979797" stroke-linecap="square" stroke-opacity=".102" d="M157.5 304.5h352"/>
+        <g>
+            <text fill="#818181" font-family="Montserrat-Regular, Montserrat" font-size="14" transform="translate(158 337)">
+                <tspan x="0" y="77">Appointment</tspan> <tspan x="0" y="93">Request</tspan>
+            </text>
+            <text fill="#8A8A8A" font-family="CircularStd-Bold, Circular Std" font-size="42" font-weight="bold" transform="translate(158 337)">
+                <tspan x="0" y="42">84%</tspan>
+            </text>
+            <path fill="#3DC1C3" d="M253 346l8 10h-16z"/>
+            <g>
+                <text fill="#818181" font-family="Montserrat-Regular, Montserrat" font-size="14" transform="translate(291 337)">
+                    <tspan x="0" y="77">Daily Active</tspan> <tspan x="0" y="93">Patient</tspan>
+                </text>
+                <text fill="#8A8A8A" font-family="CircularStd-Bold, Circular Std" font-size="42" font-weight="bold" transform="translate(291 337)">
+                    <tspan x="0" y="42">90%</tspan>
+                </text>
+                <path fill="#3DC1C3" d="M387 346l8 10h-16z"/>
+            </g>
+            <g>
+                <text fill="#818181" font-family="Montserrat-Regular, Montserrat" font-size="14" transform="translate(425 337)">
+                    <tspan x="0" y="77">Share Rate</tspan>
+                </text>
+                <text fill="#8A8A8A" font-family="CircularStd-Bold, Circular Std" font-size="42" font-weight="bold" transform="translate(425 337)">
+                    <tspan x="0" y="42">83%</tspan>
+                </text>
+                <path fill="#3DC1C3" d="M518 346l8 10h-16z"/>
+            </g>
+        </g>
+    </g>
+</svg>

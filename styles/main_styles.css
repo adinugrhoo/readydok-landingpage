@@ -602,10 +602,10 @@ section
 	width: 240px;
 	height: 56px;
 	border-radius: 8px;
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;	
 	vertical-align: middle;
-	line-height: 40px;
+	line-height: 41px;
 }
 
 /*********************************
@@ -666,29 +666,27 @@ section
 {
 	background: rgba(27,239,197,0.25);
 }
-.intro_icon
-{
-	width: 56px;
-	height: 56px;
-}
-.intro_icon img
-{
-	max-width: 100%;
-}
+
+
 .intro_item_content
 {
 	padding-top: 66px;
+	margin-left: 26px;
 }
 .intro_item_title
 {
-	font-size: 24px;
+	font-size: 38px;
 	font-weight: 700;
-	color: #1f1d22;
+	color: #484848;
 	line-height: 1.2;
+	text-align: left;
 }
-.intro_item_text
+.intro_item_text p
 {
 	margin-top: 27px;
+	text-align: left;
+	font-size: 20px;
+	color: #818181;
 }
 .intro_button
 {
@@ -740,79 +738,57 @@ section
 	padding-right: 30px;
 	border: solid 2px transparent;
 }
-.service:hover
+.section_2_content
 {
-	border-color: #1befc5;
+	padding-top: 66px;
 }
-.service_icon
+.section_2_title
 {
-	width: 75px;
-	height: 75px;
+	font-size: 38px;
+	font-weight: 700;
+	color: #484848;
+	line-height: 1.2;
+	text-align: right;
 }
-.service_icon img
+.section_2_text p
 {
-	max-width: 100%;
-}
-.service_icon svg
-{
-	max-width: 100%;
-	height: auto;
-}
-.svg path,
-.svg rect,
-.svg polygon
-{
-	fill: #778990;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.service:hover .svg path,
-.service:hover .svg rect,
-.service:hover .svg polygon
-{
-	fill: #1befc5;
-}
-.service_title
-{
-	margin-top: 39px;
-}
-.service_text
-{
-	margin-top: 19px;
+	margin-top: 27px;
+	text-align: right;
+	font-size: 20px;
+	color: #818181;
 }
 .service_button
 {
 	position: absolute;
-	bottom: -32px;
 	left: 50%;
+	margin-top: 5px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
+	transform: translateX(-165%);
 	width: 157px;
 	height: 63px;
-	background: #f4f7f8;
+	text-align: left;
+	font-size: 18px;
 	border-radius: 12px;
+	color: #3dc1c3 !important;
 }
 .service_button:hover
 {
-	background: #1befc5;
+	color: #1befc5;
 }
 .service_button a
 {
 	display: block;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 600;
-	color: #656566;
+	color: #3dc1c3;
 	line-height: 63px;
 }
 .service_button:hover a
 {
-	color: #1f1d22;
+	color: #1befc5;;
 }
 
 /*********************************
