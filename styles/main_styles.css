@@ -1214,11 +1214,11 @@ section
 }
 .choice_text
 {
-	margin-top: 51px;
+	margin-top: 15px;
 }
 .choice_text p
 {
-	font-weight: 500;
+	font-weight: 400;
 }
 .choice_list
 {
@@ -1247,12 +1247,14 @@ section
 }
 .message_input
 {
-	width: 100%;
+	width: 70%;
 	height: 54px;
-	background: #f1f6f8;
+	background: #FFFFFF;
 	border: none;
+	border-radius: 8px;
 	outline: none;
 	padding-left: 34px;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.06);
 }
 .message_input:not(:last-child)
 {
@@ -1300,19 +1302,19 @@ section
 }
 .message_form_button
 {
-	width: 130px;
-	height: 60px;
-	background: #1befc5;
+	width: 100px;
+	height: 54px;
+	background: #3dc1c3;
 	border: none;
 	outline: none;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
-	color: #1f1d22;
-	border-radius: 12px;
+	color: #FFFFFF;
+	border-radius: 8px;
 	cursor: pointer;
 	margin-top: 3px;
+	margin-left: 10px;
 }
-
 /*********************************
 10. CTA
 *********************************/
