@@ -591,10 +591,11 @@ section
   
   .nav-menu li.has-dropdown.megamenu>.dropdown {
 	width: 80%;
+	height: 300px;
   }
   
   .nav-menu li.has-dropdown.megamenu>.dropdown .dropdown-body {
-	margin-top: 30px;
+	margin-top: 0px;
 	padding: 30px;
   }
   
@@ -608,9 +609,41 @@ section
   }
   
   .dropdown-body .productpic {
-	height: 60%;
-	width: 60%;
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .dropdown-body h3 {
+	  text-align: center;
+	  font-size: 20px;
+	  margin-top: 20px;
+  }
+
+  .dropdown-body p {
+	  margin-top: 15px;
+	  text-align: center;
+  }
+
+  .dropdown-body .linkdownload {
+	  margin-top: 15px;
+	  display: block;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  }
+
+  .dropdown-item {
+	  margin-top: 15px;
+  }
+  .dropdown-item .description {
+	  color: #3f3f3f;
+	  font-weight: 400;
+	  margin-top: 5px;
+  }
+
+  
   
   /*----------------------------*\
 	  tab dropdown
@@ -1140,9 +1173,20 @@ section
 	width: 50%;
 }
 
+.card-body .namedoctor {
+	margin-left: 40px;
+}
+
 .card-body h3
 {
-	font-size: 14px;
+	margin-top: 18px;
+	font-size: 16px;
+	color: #3dc1c3;
+}
+
+.namedoctor p {
+	margin-top: -6px;
+	margin-left: 24px;
 }
 /*********************************
 9. Why Choose Us
