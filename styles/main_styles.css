@@ -1210,7 +1210,7 @@ section
 .choice_content
 {
 	padding-top: 94px;
-	padding-bottom: 91px;
+	padding-bottom: 0px;
 }
 .choice_text
 {
@@ -1247,7 +1247,7 @@ section
 }
 .message_input
 {
-	width: 70%;
+	width: 100%;
 	height: 54px;
 	background: #FFFFFF;
 	border: none;
